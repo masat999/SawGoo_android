@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="jp.sawgoo.android" android:versionCode="1" android:versionName="1.0">
+	<application android:icon="@drawable/icon" android:label="@string/app_name">
+		<activity android:name=".MainView" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<!-- fullscreen
+		<activity android:name=".Map" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"/>
+		-->
+		<activity android:name=".MapIntent" />
+		<activity android:name=".PreferencesIntent" />
+		<activity android:name=".TwitterOAuthIntent" />
+		<uses-library android:name="com.google.android.maps" />
+	</application>
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<!-- GPSを使用するために必要なパーミッション -->
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<!-- OpenID Test -->
+	<!-- 
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    -->
+	<uses-sdk android:minSdkVersion="4" android:targetSdkVersion="4" />
+	<supports-screens android:smallScreens="false" android:normalScreens="true" android:largeScreens="true"
+		android:resizeable="true" android:anyDensity="true" />
+</manifest>

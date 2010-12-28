@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+35.658144
+139.701412
+ -->
+<tweets>
+	<tweet timestamp="2010/11/08 12:00:05">
+		<type>ikemen</type>
+		<id>masa_t999</id>
+		<geo>
+			<latitude>35.658144</latitude>
+			<longtitude>139.701412</longtitude>
+		</geo>
+	</tweet>
+	<tweet timestamp="2010/11/08 12:00:05">
+		<type>ikemen</type>
+		<id>masa_t999</id>
+		<geo>
+			<latitude>35.681396</latitude>
+			<longtitude>139.766049</longtitude>
+		</geo>
+	</tweet>
+	<tweet timestamp="2010/11/08 12:00:05">
+		<type>ikemen</type>
+		<id>masa_t999</id>
+		<geo>
+			<latitude>34.701895</latitude>
+			<longtitude>135.494975</longtitude>
+		</geo>
+	</tweet>
+	<tweet timestamp="2010/11/08 12:00:05">
+		<type>gal</type>
+		<id>masa_t999</id>
+		<geo>
+			<latitude>35.658154</latitude>
+			<longtitude>139.601422</longtitude>
+		</geo>
+	</tweet>
+</tweets>

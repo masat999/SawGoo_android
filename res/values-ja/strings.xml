@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">ソーグー</string>
+	<string name="prefmode_name">初期設定</string>
+	<string name="mapmode_name">地図モード</string>
+	<string name="name">名前:</string>
+	<string name="name_hint">表示名を入力</string>
+	<string name="add_account">Twitterアカウントの追加</string>
+	<string name="del_account">削除</string>
+    <string name="comment">コメントを入力（140文字）</string>
+	<string name="post_message">送信してもよろしい\nですか？</string>
+	<string name="post_progress">リクエストを送信中...</string>
+	<string name="post_complete">リスエストの送信が\n完了しました</string>
+	<string name="network_unavailble">ネットワークを利用できません</string>
+	<string name="gps_unavailble">GPSを利用できません</string>
+	<string name="ok">OK</string>
+	<string name="cancel">キャンセル</string>
+</resources>

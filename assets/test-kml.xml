@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<Style id="man">
+			<IconStyle>
+				<Icon>
+					<href>http://lh6.ggpht.com/_UE_kv6tQ3gA/TOIRmiz9yQI/AAAAAAAAApE/hxT54uai0Es/man_icon.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="gal">
+			<IconStyle>
+				<Icon>
+					<href>http://lh4.ggpht.com/_UE_kv6tQ3gA/TOIRmQSAFWI/AAAAAAAAApA/3OP430TiRCs/gal_icon.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="pet">
+			<IconStyle>
+				<Icon>
+					<href>http://lh3.ggpht.com/_UE_kv6tQ3gA/TOIRmmnaQuI/AAAAAAAAApI/mRgMqENl0A8/pet_icon.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Placemark>
+			<name>masa_t999</name>
+			<description>2010/11/08 12:00:05&lt;br&gt;Man is here!</description>
+			<styleUrl>#man</styleUrl>
+			<Point>
+				<coordinates>139.701412,35.658144</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>masa_t999</name>
+			<description>2010/11/08 12:00:05&lt;br&gt;Man is here!</description>
+			<styleUrl>#man</styleUrl>
+			<Point>
+				<coordinates>139.766049,35.681396</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>masa_t999</name>
+			<description>2010/11/08 12:00:05&lt;br&gt;Man is here!</description>
+			<styleUrl>#man</styleUrl>
+			<Point>
+				<coordinates>135.494975,34.701895</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>hanako</name>
+			<description>2010/11/08 12:00:05&lt;br&gt;Gal is here!</description>
+			<styleUrl>#gal</styleUrl>
+			<Point>
+				<coordinates>139.601422,35.658154</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+</kml>

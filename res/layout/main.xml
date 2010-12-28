@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical">
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:padding="10px" android:orientation="horizontal">
+		<EditText android:id="@+id/EditText01" android:hint="@string/comment" android:maxLength="140" android:lines="1" android:maxLines="3"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" />
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+		<ImageButton android:id="@+id/handsome" android:src="@drawable/handsome"
+			android:layout_weight="1" android:layout_gravity="top|left" style="@style/MainButton" />
+		<ImageButton android:id="@+id/star1" android:src="@drawable/star1"
+			android:layout_weight="1" android:layout_gravity="top|center" style="@style/MainButton" />
+		<ImageButton android:id="@+id/beauty" android:src="@drawable/beauty"
+			android:layout_weight="1" android:layout_gravity="top|right" style="@style/MainButton" />
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+		<ImageButton android:id="@+id/star2" android:src="@drawable/star2"
+			android:layout_weight="1" android:layout_gravity="top|left" style="@style/MainButton" />
+		<ImageButton android:id="@+id/boob" android:src="@drawable/boob"
+			android:layout_weight="1" android:layout_gravity="top|center" style="@style/MainButton" />
+		<ImageButton android:id="@+id/girl" android:src="@drawable/girl"
+			android:layout_weight="1" android:layout_gravity="top|right" style="@style/MainButton" />
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+		<ImageButton android:id="@+id/arguing" android:src="@drawable/arguing"
+			android:layout_weight="1" android:layout_gravity="top|left" style="@style/MainButton" />
+		<ImageButton android:id="@+id/breaking" android:src="@drawable/breaking"
+			android:layout_weight="1" android:layout_gravity="top|center" style="@style/MainButton" />
+		<ImageButton android:id="@+id/drunk" android:src="@drawable/drunk"
+			android:layout_weight="1" android:layout_gravity="top|right" style="@style/MainButton" />
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+		<ImageButton android:id="@+id/fighter" android:src="@drawable/fighter"
+			android:layout_weight="1" android:layout_gravity="top|left" style="@style/MainButton" />
+		<ImageButton android:id="@+id/celebrity" android:src="@drawable/celebrity"
+			android:layout_weight="1" android:layout_gravity="top|center" style="@style/MainButton" />
+		<ImageButton android:id="@+id/filming" android:src="@drawable/filming"
+			android:layout_weight="1" android:layout_gravity="top|right" style="@style/MainButton" />
+	</LinearLayout>
+	<ListView android:id="@+id/list" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

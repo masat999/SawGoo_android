@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">SawGoo</string>
+	<string name="map_key">05yuUQX9Y9nahJ5iZxWrMSMoopWBdpQ9Dw38mlQ</string>
+	<!--
+	<string name="map_key">05yuUQX9Y9nZ_vJnj86EEJmkc1EfaSjwr3WlqFg</string>
+	-->
+	<string name="consumer_key">1aHd4o4DCoTljQnoWlWhiQ</string>
+	<string name="consumer_secret">lJ8J7BrXMknZIQaASBWweEQaLF37CzQoUJB8yhOHw</string>
+	<string name="prefmode_name">Preferences</string>
+	<string name="mapmode_name">Map Mode</string>
+	<string name="name">Name:</string>
+	<string name="name_hint">Your display name</string>
+	<string name="add_account">add Twitter Account</string>
+	<string name="del_account">delete</string>
+	<string name="comment">Enter your comment (140 chars)</string>
+	<string name="post_message">Are you sure to post?</string>
+	<string name="post_progress">Sending your request...</string>
+	<string name="post_complete">Complete your request</string>
+	<string name="network_unavailble">Network currently unavailable</string>
+	<string name="gps_unavailble">GPS currently unavailable</string>
+	<string name="ok">OK</string>
+	<string name="cancel">Cancel</string>
+</resources>
+<!-- debug.keystore
+	<string name="map_key">05yuUQX9Y9nahJ5iZxWrMSMoopWBdpQ9Dw38mlQ</string>
+-->

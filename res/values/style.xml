@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="MainButton" parent="android:Widget.ImageButton">
+        <item name="android:layout_height">120px</item>
+        <item name="android:layout_width">120px</item>
+		<item name="android:background">#000000</item>
+		<item name="android:clickable">true</item>
+		<item name="android:focusable">true</item>
+		<item name="android:focusableInTouchMode">true</item>
+	</style>
+	<style name="MainButton.Man">
+		<item name="android:src">@drawable/man</item>
+	</style>
+	<style name="MainButton.Gal">
+		<item name="android:src">@drawable/gal</item>
+	</style>
+	<style name="MainButton.Pet">
+		<item name="android:src">@drawable/pet</item>
+	</style>
+</resources>
