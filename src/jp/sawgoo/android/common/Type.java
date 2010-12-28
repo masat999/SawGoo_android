@@ -1,8 +1,6 @@
 package jp.sawgoo.android.common;
 
 import jp.sawgoo.android.R;
-import jp.sawgoo.android.R.drawable;
-import jp.sawgoo.android.R.id;
 
 public class Type {
 
